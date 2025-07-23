@@ -1,72 +1,49 @@
-🌦️ Weather App
-A simple weather application that allows users to check real-time weather information for any city using the WeatherAPI.com.
+# 🌦️ Weather App
 
-📸 Demo
-<img width="1279" height="832" alt="image" src="https://github.com/user-attachments/assets/7f96b087-230a-43d6-bb14-5c51c4d0740e" />
+A simple weather web application that allows users to search for current weather conditions by city name using **WeatherAPI.com**.
 
+---
 
-🚀 Features
-Get current weather data by city name
+## 📸 Demo
 
-Display temperature, weather condition, humidity, wind speed
+<img width="1216" height="817" alt="image" src="https://github.com/user-attachments/assets/3a5f32ed-43a9-49c9-9ccc-458184833cb7" />
 
-Weather icon display
+---
 
-Responsive and clean UI
+## 🚀 Features
 
-🛠️ Tech Stack
-HTML – for structure
+- 🔍 Search for any city
+- 🌡️ Displays temperature (°C), humidity, wind speed
+- 🌥️ Shows current weather condition with an icon
+- 🎯 Simple and responsive UI
+- 🔑 Uses WeatherAPI for reliable weather data
 
-CSS – for styling
+---
 
-JavaScript – for dynamic functionality
+## 🛠️ Built With
 
-WeatherAPI.com – for weather data
+- **HTML** – for layout structure
+- **CSS** – for styling the interface
+- **JavaScript** – for functionality and API integration
+- **[WeatherAPI.com](https://www.weatherapi.com)** – for real-time weather data
 
-🔑 API Key Setup
-Go to 👉 https://www.weatherapi.com
+---
 
-Sign up and log in
+## 🔑 Getting Started (API Key Setup)
 
-Generate a free API key
+1. Create a free account at 👉 [https://www.weatherapi.com](https://www.weatherapi.com)
+2. Go to your [API Keys Dashboard](https://www.weatherapi.com/my/)
+3. Copy your API key
+4. Open `script.js` and replace the placeholder key:
 
-Replace the placeholder key in your script.js file:
-
-js
-Copy
-Edit
+```javascript
 const apiKey = "YOUR_API_KEY";
+
+
 📁 Project Structure
-graphql
-Copy
-Edit
+
 weather-app/
-│
-├── index.html        # Main UI
-├── style.css         # Styling file
-└── script.js         # JavaScript logic with API call
-🔍 Example API Call
-url
-Copy
-Edit
-https://api.weatherapi.com/v1/current.json?key=YOUR_API_KEY&q=London
-Returns a JSON object with current weather details.
-
-📦 How to Run
-Clone/download the repo
-
-Open index.html in any modern browser
-
-Type any city (e.g., London) and click “Get Weather”
-
-💡 Future Enhancements
-Add 7-day forecast
-
-Dark mode support
-
-Geolocation-based weather
-
-Search history with localStorage
-
-📜 License
-This project is open-source and free to use.
+├── index.html     
+├── style.css      
+├── script.js      
+└── README.md       
